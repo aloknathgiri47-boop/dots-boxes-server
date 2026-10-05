@@ -14,14 +14,14 @@ import {
   createGameState,
   edgeFromKey,
   validateMove,
-} from '../../src/lib/game/engine';
+} from './engine';
 import type {
   BoardSize,
   GameState,
   OnlineRoomView,
   PlayerId,
-} from '../../src/lib/game/types';
-import { activePlayers } from '../../src/lib/game/types';
+} from './game-types';
+import { activePlayers } from './game-types';
 
 /* --------------------------- Room model --------------------------- */
 
